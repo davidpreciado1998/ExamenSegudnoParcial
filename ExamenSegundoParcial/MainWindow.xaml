@@ -1,0 +1,19 @@
+﻿<Window x:Class="ExamenSegundoParcial.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamenSegundoParcial"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <TextBlock FontSize="18" Margin="0,0,0,0">1. Informacion personal > 2. Contacto > 3. Informacion de pago</TextBlock>
+        <TextBlock Margin="10,0,10,0"></TextBlock>
+        <StackPanel Name="PanelPestaña"></StackPanel>
+        <StackPanel>
+            <Button Name="btn" Click="btn_Click" Width="90" HorizontalAlignment="Right" Margin="0,10,10,0">Siguiente</Button>
+            <TextBlock Name="tbkError"></TextBlock>
+            <TextBlock Name="tbkTarjeta"></TextBlock>
+        </StackPanel>
+    </StackPanel>
+</Window>
